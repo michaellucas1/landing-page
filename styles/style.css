@@ -37,16 +37,20 @@ p {
 .hero-section {
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:center;
     background-color:#1F2937;
 }
 .hero-message {
     display:flex;
     flex-direction:column;
+    align-items:flex-start;
     
 }
 .hero-message > p {
     width:250px;
+}
+.hero-image {
+    align-self:center;
 }
 .hero-message-title {
     font-size:48px;
