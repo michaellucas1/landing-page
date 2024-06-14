@@ -29,12 +29,22 @@ button {
 }
 .left-header {
     font-size: 24px;
+    font-weight: 900;
     color:#F9FAF8;
+    padding:15px;
 }
+.right-header {
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    padding:20px;
+}
+
 .header-container {
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap:310px;
 }
 .header-container,
 .footer,
