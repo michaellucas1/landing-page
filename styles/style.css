@@ -2,6 +2,7 @@ body {
     font-family: Roboto;
     display:flex;
     flex-direction: column;
+    
 }
 
 p {
@@ -14,6 +15,7 @@ button {
     border-radius:5px;
     border:none;
     padding:5px 20px 5px 20px;
+    margin-top:10px;
 }
 
 .hero-message-subtext,
@@ -44,20 +46,38 @@ button {
 .hero-section {
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content: center;
+    align-items:center;
     background-color:#1F2937;
 }
 .hero-message {
     display:flex;
     flex-direction:column;
     align-items:flex-start;
-    
+    padding-right:60px;  
 }
-.hero-message > p {
-    width:250px;
+.hero-message,
+.hero-image {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.hero-message-subtext {
+    width:400px;
+}
+.hero-message-title {
+    width:300px;
 }
 .hero-image {
-    align-self:center;
+    display: flex;
+    width:400px;
+    height:175px;
+    box-sizing: border-box;
+    background-color: #6D747D;
+    align-items:center;
+    justify-content:center;
+}
+.hero-image > p {
+    color:white;
 }
 .hero-message-title {
     font-size:48px;
