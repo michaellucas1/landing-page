@@ -64,3 +64,31 @@ button {
     font-weight:900;
     color:#F9FAF8;
 }
+
+.content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+.content-title {
+    padding:30px;
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+}
+.content-image-container {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+.content-image {
+    flex:1;
+    min-width:100px;
+    min-height:100px;
+    border-style: solid;
+    border-color:#3882F6;
+    margin:30px;
+    border-radius:5px;
+}
