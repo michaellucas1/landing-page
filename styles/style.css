@@ -142,9 +142,11 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    gap:30px;
 }
 .quote-section > p {
     font-size:36px;
+    font-weight: lighter;
     font-style: italic;
     padding:100px 140px 0px 140px;
     color:#1F2937;
@@ -178,8 +180,10 @@ button {
 }
 .ads-button-container > button {
     border-color: white;
-    border-style: solid;
-    font-size:16px;
+    border-style:solid;
+    font-size: 16px;
+    padding-left:10px;
+    padding-right:10px;
 }
 .ads-title {
     font-weight:bold ;
