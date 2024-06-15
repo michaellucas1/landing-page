@@ -60,6 +60,7 @@ button {
     justify-content: center;
     align-items:center;
     background-color:#1F2937;
+    padding-bottom:30px;
 }
 .hero-message {
     display:flex;
