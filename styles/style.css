@@ -11,7 +11,7 @@ p {
 }
 button {
     color:white;
-    background-color: #3882F6 ;
+    background-color: #3882F6;
     border-radius:5px;
     border:none;
     padding:5px 20px 5px 20px;
@@ -155,4 +155,34 @@ button {
     font-size: 22px;
     font-weight: bold;
     padding-bottom:100px;
+}
+.ads-space {
+    display:flex;
+    justify-content: center;
+}
+
+.ads-container {
+    display:flex;
+    flex-direction: row;
+    background-color: #3882F6;
+
+}
+.ads-title-message-container {
+    display:flex;
+    flex-direction:column;
+}
+.ads-button-container > button {
+    border-color: white;
+    border-style: solid;
+}
+.ads-title {
+    font-weight:bold ;
+    font-size:22px;
+}
+.ads-message {
+    font-size:16px;
+}
+.ads-message,
+.ads-title {
+    color:white;
 }
