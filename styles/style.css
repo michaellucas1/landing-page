@@ -45,6 +45,7 @@ button {
     flex-direction: row;
     justify-content: center;
     gap:310px;
+    padding-bottom:30px;
 }
 .header-container,
 .footer,
