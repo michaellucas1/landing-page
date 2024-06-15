@@ -132,3 +132,23 @@ button {
     text-align: center; 
     color:#6D747D;
 }
+
+.quote-section-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.quote-section > p {
+    font-size:36px;
+    font-style: italic;
+    padding:100px 140px 0px 140px;
+    color:#1F2937;
+}
+.quote-author {
+    align-self:center;
+    padding-left:500px;
+    font-size: 22px;
+    font-weight: bold;
+}
