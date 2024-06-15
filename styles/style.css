@@ -173,10 +173,13 @@ button {
 .ads-title-message-container {
     display:flex;
     flex-direction:column;
+    padding-right:100px;
+
 }
 .ads-button-container > button {
     border-color: white;
     border-style: solid;
+    font-size:16px;
 }
 .ads-title {
     font-weight:bold ;
